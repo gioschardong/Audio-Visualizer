@@ -1,0 +1,31 @@
+body {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+canvas {
+    margin-bottom: 20px;
+}
+
+audio {
+    margin-top: auto;
+}
+
+.microphone-button {
+    background-color: #3287c1;
+    border: none;
+    border-radius: 50%;
+    padding: 135px;
+    cursor: pointer;
+    position: absolute;
+}
+
+.microphone-button img {
+    width: 200px;
+    height: 200px;
+}
